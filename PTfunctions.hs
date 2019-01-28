@@ -1,5 +1,4 @@
 module PTfunctions where
-hi a b = b
 quadraticVertex a b c = -b / (2 * a)
 quadraticDiscriminant a b c = b^2 - 4 * a * c
 quadraticRealSolutionQty a b c = if quadraticDiscriminant a b c < 0
